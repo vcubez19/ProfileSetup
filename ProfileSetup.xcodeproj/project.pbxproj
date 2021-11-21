@@ -15,6 +15,10 @@
 		32BF60E2274ADE07004AF283 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32BF60E0274ADE07004AF283 /* LaunchScreen.storyboard */; };
 		32BF60ED274ADE07004AF283 /* ProfileSetupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BF60EC274ADE07004AF283 /* ProfileSetupTests.swift */; };
 		32BF60F8274ADE07004AF283 /* ProfileSetupUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BF60F7274ADE07004AF283 /* ProfileSetupUITests.swift */; };
+		32BF6109274AF0C1004AF283 /* ProfilePicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BF6108274AF0C1004AF283 /* ProfilePicTableViewCell.swift */; };
+		32BF610E274AFCB9004AF283 /* TextFieldTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BF610D274AFCB9004AF283 /* TextFieldTableViewCell.swift */; };
+		32BF611B274AFEE1004AF283 /* DatePickerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BF611A274AFEE1004AF283 /* DatePickerTableViewCell.swift */; };
+		32BF6128274B044A004AF283 /* BirthdayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BF6127274B044A004AF283 /* BirthdayViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		32BF60F3274ADE07004AF283 /* ProfileSetupUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProfileSetupUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		32BF60F7274ADE07004AF283 /* ProfileSetupUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSetupUITests.swift; sourceTree = "<group>"; };
 		32BF60F9274ADE07004AF283 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32BF6108274AF0C1004AF283 /* ProfilePicTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePicTableViewCell.swift; sourceTree = "<group>"; };
+		32BF610D274AFCB9004AF283 /* TextFieldTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldTableViewCell.swift; sourceTree = "<group>"; };
+		32BF611A274AFEE1004AF283 /* DatePickerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerTableViewCell.swift; sourceTree = "<group>"; };
+		32BF6127274B044A004AF283 /* BirthdayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +107,10 @@
 		32BF60D4274ADDFA004AF283 /* ProfileSetup */ = {
 			isa = PBXGroup;
 			children = (
+				32BF612D274B0DA6004AF283 /* Controllers */,
+				32BF612C274B0D99004AF283 /* Custom Cells */,
 				32BF60D5274ADDFA004AF283 /* AppDelegate.swift */,
 				32BF60D7274ADDFA004AF283 /* SceneDelegate.swift */,
-				32BF60D9274ADDFA004AF283 /* ViewController.swift */,
 				32BF60DB274ADDFA004AF283 /* Main.storyboard */,
 				32BF60DE274ADE07004AF283 /* Assets.xcassets */,
 				32BF60E0274ADE07004AF283 /* LaunchScreen.storyboard */,
@@ -126,6 +135,25 @@
 				32BF60F9274ADE07004AF283 /* Info.plist */,
 			);
 			path = ProfileSetupUITests;
+			sourceTree = "<group>";
+		};
+		32BF612C274B0D99004AF283 /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				32BF611A274AFEE1004AF283 /* DatePickerTableViewCell.swift */,
+				32BF610D274AFCB9004AF283 /* TextFieldTableViewCell.swift */,
+				32BF6108274AF0C1004AF283 /* ProfilePicTableViewCell.swift */,
+			);
+			path = "Custom Cells";
+			sourceTree = "<group>";
+		};
+		32BF612D274B0DA6004AF283 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				32BF6127274B044A004AF283 /* BirthdayViewController.swift */,
+				32BF60D9274ADDFA004AF283 /* ViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +286,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32BF6109274AF0C1004AF283 /* ProfilePicTableViewCell.swift in Sources */,
 				32BF60DA274ADDFA004AF283 /* ViewController.swift in Sources */,
 				32BF60D6274ADDFA004AF283 /* AppDelegate.swift in Sources */,
 				32BF60D8274ADDFA004AF283 /* SceneDelegate.swift in Sources */,
+				32BF610E274AFCB9004AF283 /* TextFieldTableViewCell.swift in Sources */,
+				32BF611B274AFEE1004AF283 /* DatePickerTableViewCell.swift in Sources */,
+				32BF6128274B044A004AF283 /* BirthdayViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
