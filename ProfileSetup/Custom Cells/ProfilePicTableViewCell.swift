@@ -38,9 +38,6 @@ class ProfilePicTableViewCell: UITableViewCell {
         self.contentView.addSubview(self.profileImage)
         self.contentView.addSubview(self.profileLabel)
         
-        
-        self.profileImage.layer.cornerRadius = 90.0
-        
 
         let constraints: [NSLayoutConstraint] = [
             self.profileImage.leftAnchor.constraint(equalTo: self.contentView.layoutMarginsGuide.leftAnchor, constant: 80),
